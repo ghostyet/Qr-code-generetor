@@ -2,8 +2,8 @@
 
 /* Apply styles to the body */
 body { 
-	font-family: "Ubuntu", sans-serif; 
-	background-color: #f0f0f0; 
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+	background-color:green; 
 	margin: 0; 
 	padding: 0; 
 	display: flex; 
@@ -25,6 +25,7 @@ body {
 /* Style the header */
 .header { 
 	text-align: center; 
+
 } 
 
 /* Style the h1 element */
@@ -47,8 +48,9 @@ input[type="text"] {
 	font-size: 16px; 
 	border: 1px solid #ccc; 
 	border-radius: 5px; 
-	outline: none; 
-} 
+	outline: none;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+	} 
 
 /* Style the QR code div */
 .qrcode { 
