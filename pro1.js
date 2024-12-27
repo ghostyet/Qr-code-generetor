@@ -6,7 +6,7 @@ let qrcode = new QRCode(
 
 // Initial QR code generation 
 // with a default message 
-qrcode.makeCode("Why did you scan me?"); 
+qrcode.makeCode(input.value); 
 
 // Function to generate QR 
 // code based on user input 
